@@ -191,7 +191,7 @@ filter: drop-shadow(5px 5px 3px grey);
     font-size: 1rem;
     color: grey;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 400px) {
     :root {
         --primaryColor: #213555;
         --backgroundColor: #faf5ee;
