@@ -88,6 +88,7 @@ a:hover{
     filter: drop-shadow(0px 5px 10px grey);  /*x,y,radius and color*/
     justify-content: space-around;
     align-items: center;
+    padding: 20px;
 }
 .greeting{
     font-family: var(--cursivefont);
@@ -109,11 +110,13 @@ a:hover{
     /*flex-grow: 2;*/
    
     width: 50%;
-    
+   
 }
+
 .description{
     margin:30px 0px ;
     line-height: 2.5rem;
+    
 }
 .showcvbutton{
 text-decoration: none;
@@ -189,4 +192,10 @@ filter: drop-shadow(5px 5px 3px grey);
     color: grey;
 }
 
+@media screen and (max-width: 768px) {
+
+   
+    .total {display: block;}
+    
+    }
 
